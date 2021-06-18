@@ -1,0 +1,10 @@
+version: "2"
+services:
+        ssh-tools:
+                image: ubuntu:20.04
+                container_name: sshlabs-ssh-tools
+#                environment:
+#                volumes:
+#                ports:
+#                 - 2222:22
+                restart: unless-stopped
